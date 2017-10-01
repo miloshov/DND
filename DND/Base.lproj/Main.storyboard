@@ -47,6 +47,9 @@
                                 <state key="normal" title="O nama">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="nlN-HU-Aaa" kind="show" id="Qf6-We-asL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eE-Cw-dHh">
                                 <rect key="frame" x="76" y="581" width="80" height="60"/>
@@ -58,6 +61,9 @@
                                 <state key="normal" title="Vesti">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="0xD-wd-eN7" kind="show" id="c10-81-PiQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaJ-Hk-g88">
                                 <rect key="frame" x="259" y="581" width="80" height="60"/>
@@ -69,6 +75,9 @@
                                 <state key="normal" title="Kontakt">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="zj1-77-nOL" kind="show" id="x63-Ev-edL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMJ-7k-Ugk">
                                 <rect key="frame" x="259" y="475" width="80" height="60"/>
@@ -80,6 +89,9 @@
                                 <state key="normal" title="Edukacija">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="8lD-DW-eCy" kind="show" id="lIH-KB-0gs"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainImage" translatesAutoresizingMaskIntoConstraints="NO" id="7Gj-Ct-bwV">
                                 <rect key="frame" x="0.0" y="66" width="414" height="327"/>
@@ -135,6 +147,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="x86-dR-hoj">
+            <objects>
+                <viewController id="8lD-DW-eCy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QfJ-ry-hhO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aKe-hp-izz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LK7-n2-Reb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="-178"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QHm-sA-f2C">
+            <objects>
+                <viewController id="0xD-wd-eN7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bM8-NG-RhM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="UYw-oj-3xq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QaG-P9-XoG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="534"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hgJ-2W-TCC">
+            <objects>
+                <viewController id="zj1-77-nOL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NRF-oQ-G8A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JdI-9m-eKs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pwj-bT-4ie" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="1255"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vWR-CU-Ltk">
+            <objects>
+                <viewController id="nlN-HU-Aaa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="daJ-gA-DpL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="IUO-FZ-KnB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dSk-qV-Ovx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="-904"/>
         </scene>
     </scenes>
     <resources>
