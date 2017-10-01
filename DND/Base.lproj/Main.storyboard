@@ -1,24 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="DND" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainVC" translatesAutoresizingMaskIntoConstraints="NO" id="Np7-vf-tIv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DND Commerce" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tc-Nj-iS8">
+                                <rect key="frame" x="16" y="28" width="382" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="zNP-V3-W8r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eI2-ei-fFO">
+                                <rect key="frame" x="76" y="475" width="80" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="IV9-ZM-g6o"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="t1a-XM-sV1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                <state key="normal" title="O nama">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eE-Cw-dHh">
+                                <rect key="frame" x="76" y="581" width="80" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="VhY-fC-vUJ"/>
+                                    <constraint firstAttribute="height" constant="60" id="mrg-V2-Md7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                <state key="normal" title="Vesti">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaJ-Hk-g88">
+                                <rect key="frame" x="259" y="581" width="80" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="A5T-1c-TAs"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="gCc-Cj-62J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                <state key="normal" title="Kontakt">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMJ-7k-Ugk">
+                                <rect key="frame" x="259" y="475" width="80" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="9Y3-se-bGg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="e1Q-RR-oWU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                <state key="normal" title="Edukacija">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainImage" translatesAutoresizingMaskIntoConstraints="NO" id="7Gj-Ct-bwV">
+                                <rect key="frame" x="0.0" y="66" width="414" height="327"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="327" id="O9U-rg-8Ii"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlg-ti-w3p">
+                                <rect key="frame" x="177" y="656" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="HbL-RW-aXY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                <state key="normal" title="DND">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="callUsBtnPressedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o8x-F2-lCt"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Np7-vf-tIv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="28l-EO-IQn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dlg-ti-w3p" secondAttribute="bottom" constant="20" id="2kd-7E-Rfz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kaJ-Hk-g88" secondAttribute="trailing" constant="75" id="4h4-DW-gj3"/>
+                            <constraint firstItem="Np7-vf-tIv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="5LN-Ih-Q3R"/>
+                            <constraint firstItem="4eE-Cw-dHh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6KQ-GB-B5K"/>
+                            <constraint firstItem="dlg-ti-w3p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="177" id="6op-oT-1ZQ"/>
+                            <constraint firstAttribute="trailing" secondItem="4eE-Cw-dHh" secondAttribute="trailing" constant="258" id="CUe-0g-PO1"/>
+                            <constraint firstItem="KMJ-7k-Ugk" firstAttribute="top" secondItem="7Gj-Ct-bwV" secondAttribute="bottom" constant="82" id="GpA-RW-aRd"/>
+                            <constraint firstItem="eI2-ei-fFO" firstAttribute="top" secondItem="7Gj-Ct-bwV" secondAttribute="bottom" constant="82" id="O4f-re-icd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Gj-Ct-bwV" secondAttribute="trailing" id="SZt-RQ-4Rm"/>
+                            <constraint firstItem="7Gj-Ct-bwV" firstAttribute="top" secondItem="9tc-Nj-iS8" secondAttribute="bottom" constant="8" id="WKu-At-T7u"/>
+                            <constraint firstItem="eI2-ei-fFO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WQH-0J-D6H"/>
+                            <constraint firstItem="Np7-vf-tIv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Y11-kY-vs5"/>
+                            <constraint firstItem="9tc-Nj-iS8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="c60-OQ-CqI"/>
+                            <constraint firstItem="KMJ-7k-Ugk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="dH3-aq-kcc"/>
+                            <constraint firstItem="9tc-Nj-iS8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dW4-Qi-Nf5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kaJ-Hk-g88" secondAttribute="bottom" constant="95" id="iHJ-Or-vpN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9tc-Nj-iS8" secondAttribute="trailing" constant="16" id="kNu-9v-Jf1"/>
+                            <constraint firstItem="7Gj-Ct-bwV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nBz-YV-z7U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KMJ-7k-Ugk" secondAttribute="trailing" constant="75" id="nec-la-S9o"/>
+                            <constraint firstAttribute="trailing" secondItem="eI2-ei-fFO" secondAttribute="trailing" constant="258" id="p29-Hd-lB4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dlg-ti-w3p" secondAttribute="trailing" constant="177" id="pEz-JJ-3b6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4eE-Cw-dHh" secondAttribute="bottom" constant="95" id="qAa-Cg-kC2"/>
+                            <constraint firstItem="Np7-vf-tIv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qLH-xI-hsw"/>
+                            <constraint firstItem="kaJ-Hk-g88" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="rdA-d9-ERQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="MainImage" width="750" height="600"/>
+        <image name="MainVC" width="1242" height="2209"/>
+    </resources>
 </document>
