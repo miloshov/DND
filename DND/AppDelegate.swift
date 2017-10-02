@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate, UNUser
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+//        UIApplication.shared.statusBarStyle = .lightContent
+        
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { (isGranted, err) in
             // Setting up thet type of the notifications we want to receive and configuring Firebase App
             // Handling an errors

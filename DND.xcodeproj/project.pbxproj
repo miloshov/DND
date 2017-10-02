@@ -32,8 +32,8 @@
 		26392F361F81944200B3D05B /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26392F351F81944200B3D05B /* RegistrationVC.swift */; };
 		26392F381F81948100B3D05B /* SendQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26392F371F81948100B3D05B /* SendQuestionVC.swift */; };
 		26392F3A1F8194EC00B3D05B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26392F391F8194EC00B3D05B /* Constants.swift */; };
+		26392F3B1F82504700B3D05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B691F81096600350D5F /* Main.storyboard */; };
 		26A76B661F81096600350D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A76B651F81096600350D5F /* AppDelegate.swift */; };
-		26A76B6B1F81096600350D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B691F81096600350D5F /* Main.storyboard */; };
 		26A76B6D1F81096600350D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B6C1F81096600350D5F /* Assets.xcassets */; };
 		26A76B701F81096600350D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B6E1F81096600350D5F /* LaunchScreen.storyboard */; };
 		26A76B781F811EAF00350D5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B771F811EAE00350D5F /* GoogleService-Info.plist */; };
@@ -305,12 +305,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26392F3B1F82504700B3D05B /* Main.storyboard in Resources */,
 				26A76B701F81096600350D5F /* LaunchScreen.storyboard in Resources */,
 				26A76B8A1F817D5D00350D5F /* Poppins-SemiBold.ttf in Resources */,
 				26A76B781F811EAF00350D5F /* GoogleService-Info.plist in Resources */,
 				26A76B6D1F81096600350D5F /* Assets.xcassets in Resources */,
 				26A76B891F817D5A00350D5F /* Poppins-Regular.ttf in Resources */,
-				26A76B6B1F81096600350D5F /* Main.storyboard in Resources */,
 				26A76B881F817D5700350D5F /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +421,8 @@
 				26A76B6A1F81096600350D5F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = DND;
+			sourceTree = SOURCE_ROOT;
 		};
 		26A76B6E1F81096600350D5F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
