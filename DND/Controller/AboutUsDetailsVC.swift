@@ -26,7 +26,7 @@ class AboutUsDetailsVC: UIViewController {
         
         // This is sharing only image on FB and only text on WA. Should be checked why?
         
-        let shareButton = UIActivityViewController(activityItems: [imageLbl.image!, textLbl.text!], applicationActivities: nil)
+        let shareButton = UIActivityViewController(activityItems: [imageLbl.image as Any, textLbl.text!], applicationActivities: nil)
         
         shareButton.popoverPresentationController?.sourceView = self.view
         

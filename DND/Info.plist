@@ -51,5 +51,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Moramo pristupiti Vašoj lokaciji, kako bi Vam pokazali lokaciju tražene Edukacija. Hvala, Vaš DND</string>
 </dict>
 </plist>

@@ -23,7 +23,7 @@ class OurHistoryVC: UIViewController {
     }
     @IBAction func shareBtnPressed(_ sender: UIButton) {
         
-        let shareButton = UIActivityViewController(activityItems: [imageLbl.image!, textLbl.text!], applicationActivities: nil)
+        let shareButton = UIActivityViewController(activityItems: [imageLbl.image as Any, textLbl.text!], applicationActivities: nil)
         
         shareButton.popoverPresentationController?.sourceView = self.view
         
