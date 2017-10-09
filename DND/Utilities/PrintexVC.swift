@@ -11,6 +11,7 @@ import UIKit
 class PrintexVC: UIViewController {
     
     // MARK: Properties
+    @IBOutlet weak var textView: UITextView!
     
     @IBAction func backBtnPressed (_sender: UIButton) {
         
@@ -20,6 +21,8 @@ class PrintexVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textView.isEditable = false
     }
 
 }

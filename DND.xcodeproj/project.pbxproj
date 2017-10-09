@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2616E5291F8BD192005C0A14 /* Hawo-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5221F8B6F51005C0A14 /* Hawo-Logo.png */; };
+		2616E52A1F8BD196005C0A14 /* Amcor-Logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5211F8B6F38005C0A14 /* Amcor-Logo.jpeg */; };
+		2616E52B1F8BD198005C0A14 /* Belintra-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5201F8B6F21005C0A14 /* Belintra-Logo.jpg */; };
+		2616E52C1F8BD19C005C0A14 /* No-Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5231F8B6F5C005C0A14 /* No-Image.jpg */; };
+		2616E52D1F8BD19F005C0A14 /* Sonica-Logo.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5241F8B6F64005C0A14 /* Sonica-Logo.tif */; };
+		2616E52E1F8BD1A2005C0A14 /* Steelco-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5251F8B6F6C005C0A14 /* Steelco-Logo.png */; };
+		2616E52F1F8BD1A5005C0A14 /* Sterimed-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5261F8B6F75005C0A14 /* Sterimed-Logo.jpg */; };
+		2616E5301F8BD1AA005C0A14 /* Soltec-Logo.TIF in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5271F8BCF62005C0A14 /* Soltec-Logo.TIF */; };
+		2616E5311F8BD1AD005C0A14 /* Printex-Logo.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5281F8BCFE1005C0A14 /* Printex-Logo.bmp */; };
+		2616E5361F8BD31A005C0A14 /* TestImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5341F8BD30A005C0A14 /* TestImage1.png */; };
+		2616E5371F8BD31F005C0A14 /* TestImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5331F8BD308005C0A14 /* TestImage2.png */; };
+		2616E5381F8BD322005C0A14 /* TestImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5321F8BD305005C0A14 /* TestImage3.png */; };
+		2616E5391F8BD325005C0A14 /* TestImage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2616E5351F8BD30D005C0A14 /* TestImage4.png */; };
+		2616E53B1F8BD3EF005C0A14 /* o nama.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2616E53A1F8BD3E2005C0A14 /* o nama.JPG */; };
 		26392F0A1F81844E00B3D05B /* CallUsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26392F091F81844E00B3D05B /* CallUsFile.swift */; };
 		26392F0C1F818B2100B3D05B /* AboutUsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26392F0B1F818B2100B3D05B /* AboutUsFile.swift */; };
 		26392F0E1F818B4500B3D05B /* NewsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26392F0D1F818B4500B3D05B /* NewsFile.swift */; };
@@ -33,8 +47,8 @@
 		26392F381F81948100B3D05B /* SendQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26392F371F81948100B3D05B /* SendQuestionVC.swift */; };
 		26392F3A1F8194EC00B3D05B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26392F391F8194EC00B3D05B /* Constants.swift */; };
 		26392F3B1F82504700B3D05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B691F81096600350D5F /* Main.storyboard */; };
-		264E98CB1F891166007C0079 /* UltraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E98CA1F891166007C0079 /* UltraVC.swift */; };
-		264E98CD1F89117D007C0079 /* GandusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E98CC1F89117D007C0079 /* GandusVC.swift */; };
+		264C12751F8B6A20007BFD45 /* HawoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C12741F8B6A20007BFD45 /* HawoVC.swift */; };
+		264C12771F8B6A67007BFD45 /* AmcorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C12761F8B6A67007BFD45 /* AmcorVC.swift */; };
 		264E98CF1F891197007C0079 /* SterimedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E98CE1F891197007C0079 /* SterimedVC.swift */; };
 		264E98D11F8911E8007C0079 /* BelintraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E98D01F8911E8007C0079 /* BelintraVC.swift */; };
 		264E98D31F89120A007C0079 /* SteelcoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E98D21F89120A007C0079 /* SteelcoVC.swift */; };
@@ -52,6 +66,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2616E5201F8B6F21005C0A14 /* Belintra-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Belintra-Logo.jpg"; sourceTree = SOURCE_ROOT; };
+		2616E5211F8B6F38005C0A14 /* Amcor-Logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amcor-Logo.jpeg"; sourceTree = SOURCE_ROOT; };
+		2616E5221F8B6F51005C0A14 /* Hawo-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hawo-Logo.png"; sourceTree = SOURCE_ROOT; };
+		2616E5231F8B6F5C005C0A14 /* No-Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "No-Image.jpg"; sourceTree = SOURCE_ROOT; };
+		2616E5241F8B6F64005C0A14 /* Sonica-Logo.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Sonica-Logo.tif"; sourceTree = SOURCE_ROOT; };
+		2616E5251F8B6F6C005C0A14 /* Steelco-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Steelco-Logo.png"; sourceTree = SOURCE_ROOT; };
+		2616E5261F8B6F75005C0A14 /* Sterimed-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sterimed-Logo.jpg"; sourceTree = SOURCE_ROOT; };
+		2616E5271F8BCF62005C0A14 /* Soltec-Logo.TIF */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Soltec-Logo.TIF"; sourceTree = "<group>"; };
+		2616E5281F8BCFE1005C0A14 /* Printex-Logo.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "Printex-Logo.bmp"; sourceTree = "<group>"; };
+		2616E5321F8BD305005C0A14 /* TestImage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImage3.png; sourceTree = "<group>"; };
+		2616E5331F8BD308005C0A14 /* TestImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImage2.png; sourceTree = "<group>"; };
+		2616E5341F8BD30A005C0A14 /* TestImage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImage1.png; sourceTree = "<group>"; };
+		2616E5351F8BD30D005C0A14 /* TestImage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImage4.png; sourceTree = "<group>"; };
+		2616E53A1F8BD3E2005C0A14 /* o nama.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "o nama.JPG"; sourceTree = "<group>"; };
 		26392F091F81844E00B3D05B /* CallUsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallUsFile.swift; sourceTree = "<group>"; };
 		26392F0B1F818B2100B3D05B /* AboutUsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsFile.swift; sourceTree = "<group>"; };
 		26392F0D1F818B4500B3D05B /* NewsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFile.swift; sourceTree = "<group>"; };
@@ -77,8 +105,8 @@
 		26392F351F81944200B3D05B /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		26392F371F81948100B3D05B /* SendQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendQuestionVC.swift; sourceTree = "<group>"; };
 		26392F391F8194EC00B3D05B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		264E98CA1F891166007C0079 /* UltraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltraVC.swift; sourceTree = "<group>"; };
-		264E98CC1F89117D007C0079 /* GandusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GandusVC.swift; sourceTree = "<group>"; };
+		264C12741F8B6A20007BFD45 /* HawoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawoVC.swift; sourceTree = "<group>"; };
+		264C12761F8B6A67007BFD45 /* AmcorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmcorVC.swift; sourceTree = "<group>"; };
 		264E98CE1F891197007C0079 /* SterimedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SterimedVC.swift; sourceTree = "<group>"; };
 		264E98D01F8911E8007C0079 /* BelintraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelintraVC.swift; sourceTree = "<group>"; };
 		264E98D21F89120A007C0079 /* SteelcoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteelcoVC.swift; sourceTree = "<group>"; };
@@ -211,12 +239,12 @@
 			children = (
 				264E98D01F8911E8007C0079 /* BelintraVC.swift */,
 				26392F391F8194EC00B3D05B /* Constants.swift */,
-				264E98CC1F89117D007C0079 /* GandusVC.swift */,
 				264E98CE1F891197007C0079 /* SterimedVC.swift */,
-				264E98CA1F891166007C0079 /* UltraVC.swift */,
 				264E98D21F89120A007C0079 /* SteelcoVC.swift */,
 				264E98D41F89122F007C0079 /* SeltecVC.swift */,
 				264E98D61F891253007C0079 /* PrintexVC.swift */,
+				264C12741F8B6A20007BFD45 /* HawoVC.swift */,
+				264C12761F8B6A67007BFD45 /* AmcorVC.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -243,6 +271,20 @@
 		26A76B841F817D0D00350D5F /* Partners Images */ = {
 			isa = PBXGroup;
 			children = (
+				2616E53A1F8BD3E2005C0A14 /* o nama.JPG */,
+				2616E5341F8BD30A005C0A14 /* TestImage1.png */,
+				2616E5331F8BD308005C0A14 /* TestImage2.png */,
+				2616E5321F8BD305005C0A14 /* TestImage3.png */,
+				2616E5351F8BD30D005C0A14 /* TestImage4.png */,
+				2616E5281F8BCFE1005C0A14 /* Printex-Logo.bmp */,
+				2616E5271F8BCF62005C0A14 /* Soltec-Logo.TIF */,
+				2616E5261F8B6F75005C0A14 /* Sterimed-Logo.jpg */,
+				2616E5251F8B6F6C005C0A14 /* Steelco-Logo.png */,
+				2616E5241F8B6F64005C0A14 /* Sonica-Logo.tif */,
+				2616E5231F8B6F5C005C0A14 /* No-Image.jpg */,
+				2616E5221F8B6F51005C0A14 /* Hawo-Logo.png */,
+				2616E5211F8B6F38005C0A14 /* Amcor-Logo.jpeg */,
+				2616E5201F8B6F21005C0A14 /* Belintra-Logo.jpg */,
 			);
 			path = "Partners Images";
 			sourceTree = "<group>";
@@ -326,13 +368,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2616E5391F8BD325005C0A14 /* TestImage4.png in Resources */,
 				26392F3B1F82504700B3D05B /* Main.storyboard in Resources */,
+				2616E5361F8BD31A005C0A14 /* TestImage1.png in Resources */,
+				2616E52E1F8BD1A2005C0A14 /* Steelco-Logo.png in Resources */,
 				26A76B701F81096600350D5F /* LaunchScreen.storyboard in Resources */,
 				26A76B8A1F817D5D00350D5F /* Poppins-SemiBold.ttf in Resources */,
+				2616E52B1F8BD198005C0A14 /* Belintra-Logo.jpg in Resources */,
+				2616E5311F8BD1AD005C0A14 /* Printex-Logo.bmp in Resources */,
+				2616E52C1F8BD19C005C0A14 /* No-Image.jpg in Resources */,
 				26A76B781F811EAF00350D5F /* GoogleService-Info.plist in Resources */,
+				2616E53B1F8BD3EF005C0A14 /* o nama.JPG in Resources */,
+				2616E5301F8BD1AA005C0A14 /* Soltec-Logo.TIF in Resources */,
 				26A76B6D1F81096600350D5F /* Assets.xcassets in Resources */,
+				2616E5381F8BD322005C0A14 /* TestImage3.png in Resources */,
+				2616E5291F8BD192005C0A14 /* Hawo-Logo.png in Resources */,
+				2616E52A1F8BD196005C0A14 /* Amcor-Logo.jpeg in Resources */,
 				26A76B891F817D5A00350D5F /* Poppins-Regular.ttf in Resources */,
+				2616E5371F8BD31F005C0A14 /* TestImage2.png in Resources */,
 				26A76B881F817D5700350D5F /* Poppins-Medium.ttf in Resources */,
+				2616E52D1F8BD19F005C0A14 /* Sonica-Logo.tif in Resources */,
+				2616E52F1F8BD1A5005C0A14 /* Sterimed-Logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,17 +478,17 @@
 				26392F1C1F8190C800B3D05B /* AboutUsDetailsVC.swift in Sources */,
 				26392F2C1F81929300B3D05B /* ContactVC.swift in Sources */,
 				26392F161F818DBB00B3D05B /* AboutUsCell.swift in Sources */,
-				264E98CB1F891166007C0079 /* UltraVC.swift in Sources */,
+				264C12751F8B6A20007BFD45 /* HawoVC.swift in Sources */,
 				26392F101F818B7300B3D05B /* OurWorkFile.swift in Sources */,
 				26392F0C1F818B2100B3D05B /* AboutUsFile.swift in Sources */,
 				26392F1E1F8190EF00B3D05B /* AboutUsVC.swift in Sources */,
 				26392F321F8193C500B3D05B /* OurPartnersVC.swift in Sources */,
 				264E98D11F8911E8007C0079 /* BelintraVC.swift in Sources */,
 				26392F381F81948100B3D05B /* SendQuestionVC.swift in Sources */,
+				264C12771F8B6A67007BFD45 /* AmcorVC.swift in Sources */,
 				264E98D31F89120A007C0079 /* SteelcoVC.swift in Sources */,
 				26392F281F81920700B3D05B /* NewsVC.swift in Sources */,
 				26392F2A1F81924E00B3D05B /* NewsDetailsVC.swift in Sources */,
-				264E98CD1F89117D007C0079 /* GandusVC.swift in Sources */,
 				26392F201F81914B00B3D05B /* OurWorkVC.swift in Sources */,
 				264E98CF1F891197007C0079 /* SterimedVC.swift in Sources */,
 				26392F0E1F818B4500B3D05B /* NewsFile.swift in Sources */,

@@ -11,6 +11,7 @@ import UIKit
 class AboutUsVC: UIViewController {
     
     // MARK: Properties
+    
     @IBAction func backBtnPressed(_ sender: UIButton) {
         
         dismiss(animated: true, completion: nil)
