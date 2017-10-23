@@ -453,22 +453,12 @@
                                     <action selector="backBtnPressed:" destination="V3S-K5-x5t" eventType="touchUpInside" id="Ill-JT-Epf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIv-Gx-rFk">
-                                <rect key="frame" x="248" y="569" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="15"/>
-                                <state key="normal">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="AskUsBtnPressed:" destination="V3S-K5-x5t" eventType="touchUpInside" id="OPZ-1d-0CX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92X-VG-Prw">
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92X-VG-Prw">
                                 <rect key="frame" x="73" y="582" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="A0P-H5-CZA"/>
+                                    <constraint firstAttribute="height" constant="65" id="UWq-s3-zio"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="15"/>
                                 <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -477,15 +467,33 @@
                                     <action selector="CallUsBtnPressed:" destination="V3S-K5-x5t" eventType="touchUpInside" id="uXP-Pn-k7a"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIv-Gx-rFk">
+                                <rect key="frame" x="239" y="582" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="57p-eH-Z3T"/>
+                                    <constraint firstAttribute="width" constant="65" id="Wy9-HZ-7QS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AskUsBtnPressed:" destination="V3S-K5-x5t" eventType="touchUpInside" id="OPZ-1d-0CX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="HhP-dQ-nSK" firstAttribute="top" secondItem="GS2-mG-9iU" secondAttribute="top" id="3aE-My-dzg"/>
+                            <constraint firstItem="RgI-2o-sAJ" firstAttribute="top" secondItem="FIv-Gx-rFk" secondAttribute="bottom" constant="20" id="Qxa-TA-hvO"/>
                             <constraint firstAttribute="trailing" secondItem="HhP-dQ-nSK" secondAttribute="trailing" id="guv-5d-3Aw"/>
                             <constraint firstItem="HhP-dQ-nSK" firstAttribute="leading" secondItem="GS2-mG-9iU" secondAttribute="leading" id="iv0-QJ-ToQ"/>
                             <constraint firstItem="RgI-2o-sAJ" firstAttribute="top" secondItem="HhP-dQ-nSK" secondAttribute="bottom" id="joD-M3-B42"/>
+                            <constraint firstItem="RgI-2o-sAJ" firstAttribute="top" secondItem="92X-VG-Prw" secondAttribute="bottom" constant="20" id="mH6-h6-kSu"/>
                             <constraint firstItem="ISI-RX-5yh" firstAttribute="top" secondItem="3MH-UO-aNr" secondAttribute="bottom" id="p8q-tu-goy"/>
                             <constraint firstItem="ISI-RX-5yh" firstAttribute="leading" secondItem="GS2-mG-9iU" secondAttribute="leadingMargin" id="rqg-R4-vDH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FIv-Gx-rFk" secondAttribute="trailing" constant="55" id="s9h-50-NHM"/>
+                            <constraint firstItem="92X-VG-Prw" firstAttribute="leading" secondItem="GS2-mG-9iU" secondAttribute="leadingMargin" constant="57" id="v6e-Wp-CYH"/>
                         </constraints>
                     </view>
                     <connections>
@@ -779,12 +787,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MEr-eD-B9X">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O DND-u" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABC-Ko-ncG">
-                                        <rect key="frame" x="150" y="28" width="76" height="23"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="19"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPw-f4-vde">
                                         <rect key="frame" x="16" y="24" width="59" height="30"/>
                                         <constraints>
@@ -799,6 +801,12 @@
                                             <action selector="backBtnPressed:" destination="XNN-dM-c5T" eventType="touchUpInside" id="Knw-Vs-0ni"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O DND Commerce-u" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABC-Ko-ncG">
+                                        <rect key="frame" x="100" y="28" width="175" height="23"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="19"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -806,7 +814,7 @@
                                     <constraint firstItem="qPw-f4-vde" firstAttribute="top" secondItem="MEr-eD-B9X" secondAttribute="top" constant="24" id="b2Q-6Q-tRc"/>
                                     <constraint firstItem="ABC-Ko-ncG" firstAttribute="top" secondItem="MEr-eD-B9X" secondAttribute="top" constant="28" id="hE5-nm-dWj"/>
                                     <constraint firstItem="ABC-Ko-ncG" firstAttribute="centerX" secondItem="MEr-eD-B9X" secondAttribute="centerX" id="m5l-P9-87h"/>
-                                    <constraint firstAttribute="trailing" secondItem="ABC-Ko-ncG" secondAttribute="trailing" constant="149" id="vTL-G2-pFi"/>
+                                    <constraint firstAttribute="trailing" secondItem="ABC-Ko-ncG" secondAttribute="trailing" constant="100" id="vTL-G2-pFi"/>
                                     <constraint firstItem="qPw-f4-vde" firstAttribute="leading" secondItem="MEr-eD-B9X" secondAttribute="leading" constant="16" id="wFV-xM-OKc"/>
                                 </constraints>
                             </view>
@@ -892,40 +900,6 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1cR-c9-sMV">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9U0-pq-HuE">
-                                        <rect key="frame" x="16" y="24" width="60" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="0nk-vq-eat"/>
-                                            <constraint firstAttribute="height" constant="30" id="k3t-Ls-rbL"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
-                                        <state key="normal" title="&lt; Nazad">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="backBtnPressed:" destination="yEZ-lp-HFN" eventType="touchUpInside" id="1FG-2p-3fL"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Istorija DND-a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0u-0G-bEJ">
-                                        <rect key="frame" x="123" y="24" width="129" height="23"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstItem="e0u-0G-bEJ" firstAttribute="centerX" secondItem="1cR-c9-sMV" secondAttribute="centerX" id="1Yd-cO-Kjx"/>
-                                    <constraint firstAttribute="height" constant="60" id="7oH-FW-HeF"/>
-                                    <constraint firstAttribute="trailing" secondItem="e0u-0G-bEJ" secondAttribute="trailing" constant="123" id="UUV-Os-6g2"/>
-                                    <constraint firstItem="9U0-pq-HuE" firstAttribute="leading" secondItem="1cR-c9-sMV" secondAttribute="leading" constant="16" id="gsz-A7-Zie"/>
-                                    <constraint firstItem="e0u-0G-bEJ" firstAttribute="top" secondItem="1cR-c9-sMV" secondAttribute="top" constant="24" id="kzb-bW-Hem"/>
-                                    <constraint firstItem="9U0-pq-HuE" firstAttribute="top" secondItem="1cR-c9-sMV" secondAttribute="top" constant="24" id="s5j-ue-ZjB"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Led-bK-x6F">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <subviews>
@@ -956,7 +930,7 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                     <constraint firstAttribute="height" constant="220" id="V6r-Zk-4TQ"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Istorija DND-a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jh7-C5-gcQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Istorijat DND-a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jh7-C5-gcQ">
                                 <rect key="frame" x="0.0" y="310" width="375" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="PZK-q7-npf"/>
@@ -973,6 +947,40 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1cR-c9-sMV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9U0-pq-HuE">
+                                        <rect key="frame" x="16" y="24" width="60" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="0nk-vq-eat"/>
+                                            <constraint firstAttribute="height" constant="30" id="k3t-Ls-rbL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
+                                        <state key="normal" title="&lt; Nazad">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backBtnPressed:" destination="yEZ-lp-HFN" eventType="touchUpInside" id="1FG-2p-3fL"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Istorijat DND-a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0u-0G-bEJ">
+                                        <rect key="frame" x="119" y="24" width="137" height="23"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="e0u-0G-bEJ" firstAttribute="centerX" secondItem="1cR-c9-sMV" secondAttribute="centerX" id="1Yd-cO-Kjx"/>
+                                    <constraint firstAttribute="height" constant="60" id="7oH-FW-HeF"/>
+                                    <constraint firstAttribute="trailing" secondItem="e0u-0G-bEJ" secondAttribute="trailing" constant="119" id="UUV-Os-6g2"/>
+                                    <constraint firstItem="9U0-pq-HuE" firstAttribute="leading" secondItem="1cR-c9-sMV" secondAttribute="leading" constant="16" id="gsz-A7-Zie"/>
+                                    <constraint firstItem="e0u-0G-bEJ" firstAttribute="top" secondItem="1cR-c9-sMV" secondAttribute="top" constant="24" id="kzb-bW-Hem"/>
+                                    <constraint firstItem="9U0-pq-HuE" firstAttribute="top" secondItem="1cR-c9-sMV" secondAttribute="top" constant="24" id="s5j-ue-ZjB"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1041,7 +1049,7 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                     <constraint firstAttribute="height" constant="90" id="yTD-dI-wco"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="l2S-vN-RVj" kind="show" id="Xcm-Ol-8aa"/>
+                                    <segue destination="l2S-vN-RVj" kind="show" id="2DO-fd-BGG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEj-Na-EZq">
@@ -1050,7 +1058,7 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                     <constraint firstAttribute="width" secondItem="hEj-Na-EZq" secondAttribute="height" multiplier="1:1" id="Qst-tv-8XK"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="0YX-Vl-r8z" kind="show" id="DNA-HB-3RR"/>
+                                    <segue destination="c9L-zM-hyL" kind="show" id="cgf-3I-ydF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0H1-j1-6JF">
@@ -1061,7 +1069,7 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                     <constraint firstAttribute="width" secondItem="0H1-j1-6JF" secondAttribute="height" multiplier="1:1" id="xRw-hU-KZ1"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="xg4-dD-bwL" kind="show" id="qQt-FT-YUG"/>
+                                    <segue destination="vYx-zD-stv" kind="show" id="AMq-MN-BHt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xl4-fI-jd8">
@@ -1070,7 +1078,7 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                     <constraint firstAttribute="width" secondItem="Xl4-fI-jd8" secondAttribute="height" multiplier="1:1" id="FO0-oO-CN7"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="rdv-DZ-wyT" kind="show" id="bH1-Y5-GzW"/>
+                                    <segue destination="xg4-dD-bwL" kind="show" id="Dem-Ys-YY4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPB-my-z8a">
@@ -1079,7 +1087,7 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                     <constraint firstAttribute="width" secondItem="BPB-my-z8a" secondAttribute="height" multiplier="1:1" id="LL3-BW-ixL"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="vYx-zD-stv" kind="show" id="F6U-YH-lD5"/>
+                                    <segue destination="0YX-Vl-r8z" kind="show" id="AoT-CN-3Cs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cpb-5G-HtH">
@@ -1088,25 +1096,33 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                     <constraint firstAttribute="width" secondItem="Cpb-5G-HtH" secondAttribute="height" multiplier="1:1" id="bBh-fp-vMB"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="Iiq-4w-VWq" kind="show" id="byW-xp-HJL"/>
+                                    <segue destination="rdv-DZ-wyT" kind="show" id="Y8J-B7-Rrp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCf-K0-gSg">
-                                <rect key="frame" x="147" y="474" width="80" height="80"/>
+                                <rect key="frame" x="43" y="530" width="90" height="90"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="aCf-K0-gSg" secondAttribute="height" multiplier="1:1" id="Fbn-j0-C2Q"/>
-                                    <constraint firstAttribute="height" constant="80" id="LAG-JD-DaJ"/>
-                                    <constraint firstAttribute="width" constant="80" id="cgK-qk-Wgx"/>
+                                    <constraint firstAttribute="height" constant="90" id="FQo-QB-Jp3"/>
+                                    <constraint firstAttribute="width" constant="90" id="rTt-XS-Xk1"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="c9L-zM-hyL" kind="show" id="n4C-a4-b7N"/>
+                                    <segue destination="Iiq-4w-VWq" kind="show" id="erX-ff-Ln8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3G-aY-Gwp">
+                                <rect key="frame" x="242" y="530" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="QiV-L8-fc3"/>
+                                    <constraint firstAttribute="height" constant="90" id="euJ-8E-4DD"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="9NA-Cd-V7v" kind="show" id="8Mr-Dh-1aM"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Xl4-fI-jd8" firstAttribute="width" secondItem="0H1-j1-6JF" secondAttribute="width" id="1Oh-J7-U9Y"/>
-                            <constraint firstItem="la7-WN-cKF" firstAttribute="top" secondItem="aCf-K0-gSg" secondAttribute="bottom" constant="113" id="4L9-3t-sXZ"/>
                             <constraint firstItem="BPB-my-z8a" firstAttribute="height" secondItem="Xl4-fI-jd8" secondAttribute="height" id="4hH-b0-4uF"/>
                             <constraint firstItem="Cpb-5G-HtH" firstAttribute="top" secondItem="hEj-Na-EZq" secondAttribute="bottom" constant="30" id="Db1-J0-fXd"/>
                             <constraint firstItem="gOn-cQ-mKZ" firstAttribute="leading" secondItem="y1W-qx-Eoy" secondAttribute="leading" id="Ffb-3l-Ust"/>
@@ -1122,9 +1138,12 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                             <constraint firstItem="Xl4-fI-jd8" firstAttribute="leading" secondItem="0H1-j1-6JF" secondAttribute="leading" id="W79-0y-WXs"/>
                             <constraint firstItem="hEj-Na-EZq" firstAttribute="width" secondItem="t1C-Vh-BYe" secondAttribute="width" id="Xm1-OQ-4Zq"/>
                             <constraint firstItem="anx-JZ-1Kh" firstAttribute="leading" secondItem="y1W-qx-Eoy" secondAttribute="leadingMargin" id="bhA-Qg-LAg"/>
+                            <constraint firstItem="aCf-K0-gSg" firstAttribute="leading" secondItem="y1W-qx-Eoy" secondAttribute="leadingMargin" constant="27" id="cRL-HY-zAe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Cpb-5G-HtH" secondAttribute="trailing" constant="27" id="d15-S3-7g1"/>
                             <constraint firstItem="0H1-j1-6JF" firstAttribute="top" secondItem="anx-JZ-1Kh" secondAttribute="bottom" constant="125" id="df8-vh-rVF"/>
+                            <constraint firstItem="la7-WN-cKF" firstAttribute="top" secondItem="aCf-K0-gSg" secondAttribute="bottom" constant="47" id="dnd-9D-EJA"/>
                             <constraint firstItem="hEj-Na-EZq" firstAttribute="top" secondItem="t1C-Vh-BYe" secondAttribute="bottom" constant="30" id="hNW-6U-3cN"/>
+                            <constraint firstItem="la7-WN-cKF" firstAttribute="top" secondItem="G3G-aY-Gwp" secondAttribute="bottom" constant="47" id="iRP-g6-Cfy"/>
                             <constraint firstItem="hEj-Na-EZq" firstAttribute="leading" secondItem="t1C-Vh-BYe" secondAttribute="leading" id="iWq-du-dNi"/>
                             <constraint firstItem="anx-JZ-1Kh" firstAttribute="top" secondItem="AQZ-BF-cKF" secondAttribute="bottom" constant="10" id="jbE-v2-G9Y"/>
                             <constraint firstItem="Cpb-5G-HtH" firstAttribute="leading" secondItem="t1C-Vh-BYe" secondAttribute="leading" id="lrH-qU-Ac7"/>
@@ -1133,10 +1152,10 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                             <constraint firstItem="t1C-Vh-BYe" firstAttribute="top" secondItem="AQZ-BF-cKF" secondAttribute="bottom" constant="165" id="nCh-zE-15g"/>
                             <constraint firstItem="0H1-j1-6JF" firstAttribute="leading" secondItem="y1W-qx-Eoy" secondAttribute="leadingMargin" constant="27" id="p8W-Nd-yy1"/>
                             <constraint firstItem="la7-WN-cKF" firstAttribute="top" secondItem="gOn-cQ-mKZ" secondAttribute="bottom" id="rWz-GG-WHx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="G3G-aY-Gwp" secondAttribute="trailing" constant="27" id="tGt-fj-KyX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="t1C-Vh-BYe" secondAttribute="trailing" constant="27" id="ugJ-yo-77p"/>
                             <constraint firstItem="0H1-j1-6JF" firstAttribute="leading" secondItem="y1W-qx-Eoy" secondAttribute="leading" constant="43" id="vPI-h7-90T"/>
                             <constraint firstItem="Cpb-5G-HtH" firstAttribute="height" secondItem="hEj-Na-EZq" secondAttribute="height" id="vcJ-I0-zma"/>
-                            <constraint firstItem="aCf-K0-gSg" firstAttribute="centerX" secondItem="y1W-qx-Eoy" secondAttribute="centerX" id="ve6-x8-DYd"/>
                             <constraint firstItem="Cpb-5G-HtH" firstAttribute="width" secondItem="hEj-Na-EZq" secondAttribute="width" id="xXC-Cb-nxE"/>
                             <constraint firstItem="BPB-my-z8a" firstAttribute="leading" secondItem="Xl4-fI-jd8" secondAttribute="leading" id="yt9-1O-v3K"/>
                         </constraints>
@@ -1582,7 +1601,7 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5LP-tt-749" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6844" y="-904"/>
+            <point key="canvasLocation" x="6860" y="-1281"/>
         </scene>
         <!--PrintexVC-->
         <scene sceneID="b9s-sL-x4u">
@@ -1750,9 +1769,9 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amcor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwB-aw-5Gh">
-                                <rect key="frame" x="0.0" y="296" width="375" height="40"/>
+                                <rect key="frame" x="0.0" y="288" width="375" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="U5A-ka-4Xm"/>
+                                    <constraint firstAttribute="height" constant="26" id="4kL-jv-bfn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
                                 <color key="textColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1766,41 +1785,55 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                 </constraints>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="bjH-jl-E52">
-                                <rect key="frame" x="8" y="344" width="359" height="271"/>
+                                <rect key="frame" x="8" y="350" width="359" height="265"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Amcor je globalni lider u proizvodnji pakovnog materijala za sterilizaciju i nudi najveći broj inovativnih i održivih pakovnih rešenja. Prepoznatljivi su po kvalitetu svojih proizvoda, od kojih bismo izdvojili čuvenu liniju BOP kesa i rolni. Takođe, svojim patentima, Ultra rolnama i INTEGRApak kesama su ,,kupili” svoje korisnike širom sveta jer pružaju najviši nivo sigurnosti u sterilizaciji. Amcor Pergut, ćerka kompanije Amcor, sa sedištem u Madridu, osnovana je 2016. godine i od tada uspešno posluje na polju proizvodnje medicinskih sredstava za kontrolu sterilizacije, poštujući tradiciju kompanije Amcor da bude najbolja. Sa njihovim proizvodima kontrola sterilizacije je zasigurno na najvišem nivou.</string>
                                 <color key="textColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="www.sps-amcor.fr" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IX8-dL-UYV">
+                                <rect key="frame" x="0.0" y="314" width="375" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="GoT-Ch-RaG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ym7-Cc-rZ1" firstAttribute="top" secondItem="bjH-jl-E52" secondAttribute="bottom" constant="8" id="5Vc-GL-AYs"/>
+                            <constraint firstItem="IX8-dL-UYV" firstAttribute="top" secondItem="gwB-aw-5Gh" secondAttribute="bottom" id="6Qe-oE-g7o"/>
+                            <constraint firstItem="gwB-aw-5Gh" firstAttribute="top" secondItem="gc6-Nr-PeO" secondAttribute="bottom" constant="8" id="7Yp-2D-kPy"/>
                             <constraint firstAttribute="trailing" secondItem="ym7-Cc-rZ1" secondAttribute="trailing" id="7Yp-sG-joo"/>
                             <constraint firstItem="ym7-Cc-rZ1" firstAttribute="leading" secondItem="60i-4v-Vrs" secondAttribute="leading" id="CZa-Rk-JGc"/>
-                            <constraint firstItem="bjH-jl-E52" firstAttribute="top" secondItem="gwB-aw-5Gh" secondAttribute="bottom" constant="8" id="DAg-P9-E5P"/>
-                            <constraint firstAttribute="trailing" secondItem="gwB-aw-5Gh" secondAttribute="trailing" id="MzU-WZ-yTV"/>
+                            <constraint firstItem="ym7-Cc-rZ1" firstAttribute="top" secondItem="bjH-jl-E52" secondAttribute="bottom" constant="8" id="G8b-tc-rN3"/>
+                            <constraint firstAttribute="trailing" secondItem="gwB-aw-5Gh" secondAttribute="trailing" id="PV3-kt-aWc"/>
+                            <constraint firstAttribute="trailing" secondItem="IX8-dL-UYV" secondAttribute="trailing" id="QzP-8N-PMF"/>
                             <constraint firstAttribute="trailing" secondItem="gc6-Nr-PeO" secondAttribute="trailing" id="Tcc-lN-x2b"/>
                             <constraint firstItem="gc6-Nr-PeO" firstAttribute="top" secondItem="4ia-hZ-nlW" secondAttribute="bottom" id="VjN-0p-Ofv"/>
                             <constraint firstItem="4ia-hZ-nlW" firstAttribute="leading" secondItem="60i-4v-Vrs" secondAttribute="leading" id="aD0-fm-ufC"/>
+                            <constraint firstItem="gwB-aw-5Gh" firstAttribute="leading" secondItem="60i-4v-Vrs" secondAttribute="leading" id="ahE-Tn-94z"/>
+                            <constraint firstItem="bjH-jl-E52" firstAttribute="top" secondItem="IX8-dL-UYV" secondAttribute="bottom" constant="8" id="bVY-3X-VmM"/>
                             <constraint firstItem="gc6-Nr-PeO" firstAttribute="leading" secondItem="60i-4v-Vrs" secondAttribute="leading" id="edM-eG-w4m"/>
-                            <constraint firstItem="gwB-aw-5Gh" firstAttribute="top" secondItem="gc6-Nr-PeO" secondAttribute="bottom" constant="16" id="et3-me-0In"/>
-                            <constraint firstAttribute="trailing" secondItem="bjH-jl-E52" secondAttribute="trailing" constant="8" id="f5P-d9-Pyk"/>
+                            <constraint firstItem="bjH-jl-E52" firstAttribute="leading" secondItem="60i-4v-Vrs" secondAttribute="leading" constant="8" id="gsv-RV-YKG"/>
+                            <constraint firstItem="IX8-dL-UYV" firstAttribute="leading" secondItem="60i-4v-Vrs" secondAttribute="leading" id="h1H-PT-hKE"/>
+                            <constraint firstAttribute="trailing" secondItem="bjH-jl-E52" secondAttribute="trailing" constant="8" id="mvh-wf-zyB"/>
                             <constraint firstAttribute="bottom" secondItem="ym7-Cc-rZ1" secondAttribute="bottom" id="rka-qo-zVt"/>
                             <constraint firstAttribute="trailing" secondItem="4ia-hZ-nlW" secondAttribute="trailing" id="rmq-9R-tnN"/>
-                            <constraint firstItem="gwB-aw-5Gh" firstAttribute="leading" secondItem="60i-4v-Vrs" secondAttribute="leading" id="wqQ-Q5-cNV"/>
-                            <constraint firstItem="bjH-jl-E52" firstAttribute="leading" secondItem="60i-4v-Vrs" secondAttribute="leading" constant="8" id="z8Z-p6-qcb"/>
                             <constraint firstItem="4ia-hZ-nlW" firstAttribute="top" secondItem="60i-4v-Vrs" secondAttribute="top" id="zNS-3a-ZiJ"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="linkView" destination="IX8-dL-UYV" id="MdV-wF-l7a"/>
                         <outlet property="textView" destination="bjH-jl-E52" id="6hT-4y-YXX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vgM-wd-3Oz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4719" y="-1281"/>
+            <point key="canvasLocation" x="4717.6000000000004" y="-1281.4092953523239"/>
         </scene>
         <!--SterimedVC-->
         <scene sceneID="7B2-Ec-nV7">
@@ -2366,16 +2399,20 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RegistrationVCImage" translatesAutoresizingMaskIntoConstraints="NO" id="B3N-7M-0Kf">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ime" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9ff-We-PyK">
-                                <rect key="frame" x="87" y="138" width="200" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ime" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9ff-We-PyK">
+                                <rect key="frame" x="87" y="138" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Csi-Ca-SBD"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="telefon" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AsN-v3-p8J">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="telefon" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AsN-v3-p8J">
                                 <rect key="frame" x="87" y="330" width="200" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iZ2-FL-K3D"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
@@ -2405,30 +2442,38 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                     <action selector="backBtnPressed:" destination="rUa-rf-JRn" eventType="touchUpInside" id="EJk-6U-PuY"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="e-mail adresa" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vc2-YQ-NFR">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="e-mail adresa" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vc2-YQ-NFR">
                                 <rect key="frame" x="87" y="368" width="200" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QgK-ke-7W0"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="prezime" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GmN-pI-4fl">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="prezime" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GmN-pI-4fl">
                                 <rect key="frame" x="87" y="176" width="200" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ddQ-UH-ecH"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ustanova" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vU8-7c-Vhj">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ustanova" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vU8-7c-Vhj">
                                 <rect key="frame" x="87" y="231" width="200" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="xsE-zU-MBj"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="licenca" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9GQ-TE-XSI">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="licenca" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9GQ-TE-XSI">
                                 <rect key="frame" x="87" y="269" width="200" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LN0-98-CFr"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
@@ -2436,15 +2481,33 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="9GQ-TE-XSI" secondAttribute="trailing" constant="72" id="1PK-Y2-0xf"/>
                             <constraint firstAttribute="trailing" secondItem="Kqk-rO-S7O" secondAttribute="trailingMargin" constant="307" id="2tn-mS-ted"/>
+                            <constraint firstItem="GmN-pI-4fl" firstAttribute="top" secondItem="9ff-We-PyK" secondAttribute="bottom" constant="8" id="CBY-Na-VCY"/>
                             <constraint firstItem="fJT-n9-PuH" firstAttribute="top" secondItem="B3N-7M-0Kf" secondAttribute="bottom" id="DfY-wf-dkn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9ff-We-PyK" secondAttribute="trailing" constant="72" id="FIF-EI-GkP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vU8-7c-Vhj" secondAttribute="trailing" constant="72" id="FYr-K1-Ws6"/>
                             <constraint firstItem="xga-Aa-Lty" firstAttribute="centerX" secondItem="ADA-xl-OzY" secondAttribute="centerX" id="H9k-mP-Pxa"/>
+                            <constraint firstItem="vc2-YQ-NFR" firstAttribute="leading" secondItem="ADA-xl-OzY" secondAttribute="leadingMargin" constant="71" id="IK1-Tg-VoV"/>
                             <constraint firstAttribute="trailing" secondItem="B3N-7M-0Kf" secondAttribute="trailing" id="Iwv-9A-SjU"/>
                             <constraint firstItem="Kqk-rO-S7O" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ADA-xl-OzY" secondAttribute="leadingMargin" id="Jqq-ek-g0f"/>
+                            <constraint firstItem="AsN-v3-p8J" firstAttribute="top" secondItem="9GQ-TE-XSI" secondAttribute="bottom" constant="31" id="KU9-YG-CKn"/>
+                            <constraint firstItem="9GQ-TE-XSI" firstAttribute="top" secondItem="vU8-7c-Vhj" secondAttribute="bottom" constant="8" id="Ky6-a6-smh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vc2-YQ-NFR" secondAttribute="trailing" constant="72" id="Lum-x1-KwM"/>
+                            <constraint firstItem="9ff-We-PyK" firstAttribute="top" secondItem="OWp-GS-Cxh" secondAttribute="bottom" constant="118" id="M3i-5T-gwT"/>
+                            <constraint firstItem="vc2-YQ-NFR" firstAttribute="top" secondItem="AsN-v3-p8J" secondAttribute="bottom" constant="8" id="QRA-sb-JIe"/>
                             <constraint firstItem="B3N-7M-0Kf" firstAttribute="leading" secondItem="ADA-xl-OzY" secondAttribute="leading" id="V9k-jN-Yyv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AsN-v3-p8J" secondAttribute="trailing" constant="72" id="Xjb-3b-atY"/>
+                            <constraint firstItem="9GQ-TE-XSI" firstAttribute="leading" secondItem="ADA-xl-OzY" secondAttribute="leadingMargin" constant="71" id="aGL-Y4-zzl"/>
                             <constraint firstItem="B3N-7M-0Kf" firstAttribute="top" secondItem="ADA-xl-OzY" secondAttribute="top" id="eQp-Q4-pjM"/>
                             <constraint firstItem="fJT-n9-PuH" firstAttribute="top" secondItem="xga-Aa-Lty" secondAttribute="bottom" constant="33" id="h78-8M-Z8A"/>
+                            <constraint firstItem="vU8-7c-Vhj" firstAttribute="top" secondItem="GmN-pI-4fl" secondAttribute="bottom" constant="25" id="hd8-fZ-uVQ"/>
+                            <constraint firstItem="vU8-7c-Vhj" firstAttribute="leading" secondItem="ADA-xl-OzY" secondAttribute="leadingMargin" constant="71" id="lXE-UH-gc0"/>
+                            <constraint firstItem="AsN-v3-p8J" firstAttribute="leading" secondItem="ADA-xl-OzY" secondAttribute="leadingMargin" constant="71" id="rAw-Ev-yaw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GmN-pI-4fl" secondAttribute="trailing" constant="72" id="sEs-Hc-YvR"/>
                             <constraint firstItem="Kqk-rO-S7O" firstAttribute="top" secondItem="OWp-GS-Cxh" secondAttribute="bottom" constant="10" id="wRl-Q0-X3z"/>
+                            <constraint firstItem="9ff-We-PyK" firstAttribute="leading" secondItem="ADA-xl-OzY" secondAttribute="leadingMargin" constant="71" id="yG0-Vt-1E4"/>
+                            <constraint firstItem="GmN-pI-4fl" firstAttribute="leading" secondItem="ADA-xl-OzY" secondAttribute="leadingMargin" constant="71" id="zR3-Jd-UxS"/>
                         </constraints>
                     </view>
                     <connections>
@@ -2484,16 +2547,6 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
-                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4Z-tY-7XE">
-                                <rect key="frame" x="160" y="552" width="55" height="80"/>
-                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="zHb-2I-Jkr"/>
-                                </constraints>
-                                <connections>
-                                    <action selector="SendBtnPressed:" destination="I0A-Gn-drQ" eventType="touchUpInside" id="8bc-k4-wd5"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="8Ec-dj-3FY">
                                 <rect key="frame" x="43" y="228" width="289" height="293"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2526,6 +2579,15 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                                     <action selector="backBtnPressed:" destination="I0A-Gn-drQ" eventType="touchUpInside" id="Gbj-Am-jwW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4Z-tY-7XE">
+                                <rect key="frame" x="157" y="571" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="zHb-2I-Jkr"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="SendBtnPressed:" destination="I0A-Gn-drQ" eventType="touchUpInside" id="8bc-k4-wd5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -2534,7 +2596,7 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                             <constraint firstAttribute="trailing" secondItem="7Vz-PS-zEu" secondAttribute="trailing" id="3wg-C2-rHn"/>
                             <constraint firstItem="CQa-Sz-fsk" firstAttribute="top" secondItem="WbM-F2-bRV" secondAttribute="bottom" constant="8" id="Amm-LV-Kfm"/>
                             <constraint firstAttribute="trailing" secondItem="CQa-Sz-fsk" secondAttribute="trailing" constant="299" id="E7o-68-duE"/>
-                            <constraint firstItem="O4Z-tY-7XE" firstAttribute="leading" secondItem="pjb-il-Uq6" secondAttribute="leadingMargin" constant="144" id="HhM-X9-de1"/>
+                            <constraint firstItem="O4Z-tY-7XE" firstAttribute="leading" secondItem="pjb-il-Uq6" secondAttribute="leadingMargin" constant="141" id="HhM-X9-de1"/>
                             <constraint firstItem="uoG-iM-bBC" firstAttribute="leading" secondItem="pjb-il-Uq6" secondAttribute="leadingMargin" constant="65" id="PPn-bF-cpP"/>
                             <constraint firstItem="cXA-QE-tOz" firstAttribute="trailing" secondItem="uoG-iM-bBC" secondAttribute="trailing" id="UuP-bI-u3D"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uoG-iM-bBC" secondAttribute="trailing" constant="65" id="Y0r-2D-BdL"/>
@@ -2542,8 +2604,8 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                             <constraint firstItem="8Ec-dj-3FY" firstAttribute="top" secondItem="cXA-QE-tOz" secondAttribute="bottom" constant="22" id="bge-Vp-ysi"/>
                             <constraint firstItem="8Ec-dj-3FY" firstAttribute="leading" secondItem="pjb-il-Uq6" secondAttribute="leadingMargin" constant="27" id="cKb-gS-hmx"/>
                             <constraint firstItem="CQa-Sz-fsk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="pjb-il-Uq6" secondAttribute="leading" id="dWE-n8-jjn"/>
-                            <constraint firstItem="Yze-p4-kcW" firstAttribute="top" secondItem="O4Z-tY-7XE" secondAttribute="bottom" constant="35" id="gHu-ax-mpM"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="O4Z-tY-7XE" secondAttribute="trailing" constant="144" id="oE1-ga-c8x"/>
+                            <constraint firstItem="Yze-p4-kcW" firstAttribute="top" secondItem="O4Z-tY-7XE" secondAttribute="bottom" constant="36" id="gHu-ax-mpM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O4Z-tY-7XE" secondAttribute="trailing" constant="142" id="oE1-ga-c8x"/>
                             <constraint firstItem="cXA-QE-tOz" firstAttribute="top" secondItem="uoG-iM-bBC" secondAttribute="bottom" constant="8" symbolic="YES" id="oQ6-kc-RXY"/>
                             <constraint firstItem="7Vz-PS-zEu" firstAttribute="top" secondItem="pjb-il-Uq6" secondAttribute="top" id="u7D-uJ-Z7j"/>
                             <constraint firstItem="7Vz-PS-zEu" firstAttribute="leading" secondItem="pjb-il-Uq6" secondAttribute="leading" id="vMA-0Z-62Q"/>
@@ -2559,6 +2621,117 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BHE-GV-uK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1976.8" y="1184.257871064468"/>
+        </scene>
+        <!--MedicalVC-->
+        <scene sceneID="sB0-vb-OPL">
+            <objects>
+                <viewController id="9NA-Cd-V7v" customClass="CBMMedicalVC" customModule="DND" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yu7-Vk-fgn"/>
+                        <viewControllerLayoutGuide type="bottom" id="RCo-WI-aKs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qrW-K4-xHx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lem-YM-yC1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPG-Pw-1LY">
+                                        <rect key="frame" x="16" y="23" width="60" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="jad-3J-vQm"/>
+                                            <constraint firstAttribute="width" constant="60" id="vDS-16-cnn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
+                                        <state key="normal" title="&lt; Nazad">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backBtnPressed:" destination="qve-qR-tId" eventType="touchUpInside" id="tqa-f3-MtZ"/>
+                                            <action selector="backBtnPressedWith_sender:" destination="9NA-Cd-V7v" eventType="touchUpInside" id="XAt-WC-OVj"/>
+                                            <action selector="backBtnPressedWith_sender:" destination="Iiq-4w-VWq" eventType="touchUpInside" id="ubP-wa-L3N"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Printex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esW-eg-eby">
+                                        <rect key="frame" x="134" y="23" width="106.5" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="S2D-ET-wKP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="19"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="SPG-Pw-1LY" firstAttribute="leading" secondItem="lem-YM-yC1" secondAttribute="leading" constant="16" id="3Ic-fV-Jr4"/>
+                                    <constraint firstItem="SPG-Pw-1LY" firstAttribute="top" secondItem="lem-YM-yC1" secondAttribute="top" constant="23" id="7Kh-Yq-X65"/>
+                                    <constraint firstItem="esW-eg-eby" firstAttribute="top" secondItem="lem-YM-yC1" secondAttribute="top" constant="23" id="9DJ-26-pM8"/>
+                                    <constraint firstAttribute="trailing" secondItem="esW-eg-eby" secondAttribute="trailing" constant="134.5" id="UQk-7t-Bha"/>
+                                    <constraint firstItem="esW-eg-eby" firstAttribute="leading" secondItem="SPG-Pw-1LY" secondAttribute="trailing" constant="58" id="y5L-Ye-UcR"/>
+                                    <constraint firstAttribute="height" constant="60" id="zfq-KO-q2f"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_cbm_home.png" translatesAutoresizingMaskIntoConstraints="NO" id="9eb-hN-5a9">
+                                <rect key="frame" x="8" y="60" width="359" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="knx-Oc-AJZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hawo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3D-mp-siA">
+                                <rect key="frame" x="0.0" y="296" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PDx-FF-YGc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
+                                <color key="textColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="zW9-I3-9D7">
+                                <rect key="frame" x="8" y="344" width="359" height="271"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Porodična kompanija sa iskustvom preko 40 godina i distribucijom u preko 120 zemalja sveta. Danas, gotovo da je nemoguće pronaći sterilizaciju koja nema bar jedan Hawo uređaj. Kompanija se bavi proizvodnjom lepilica za zatvaranje folija svih vrsta. Njihov portfolio pokriva od stomatoloških ordinacija preko bolnica do industrijskih uređaja. Ono što ih izdvaja od drugih je ulaganje u inovacije i žig koji svaki njihov uređaj poseduje - Made in Germany.
+</string>
+                                <color key="textColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J3T-ip-qhL">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <color key="backgroundColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="lfI-Fe-1bc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lem-YM-yC1" firstAttribute="top" secondItem="qrW-K4-xHx" secondAttribute="top" id="7Cs-iS-WFg"/>
+                            <constraint firstAttribute="trailing" secondItem="zW9-I3-9D7" secondAttribute="trailing" constant="8" id="9yy-L0-YAN"/>
+                            <constraint firstItem="zW9-I3-9D7" firstAttribute="leading" secondItem="qrW-K4-xHx" secondAttribute="leading" constant="8" id="Hvu-go-LNd"/>
+                            <constraint firstAttribute="trailing" secondItem="lem-YM-yC1" secondAttribute="trailing" id="JCG-Qh-5bS"/>
+                            <constraint firstItem="n3D-mp-siA" firstAttribute="top" secondItem="9eb-hN-5a9" secondAttribute="bottom" constant="16" id="JMv-nz-Hnb"/>
+                            <constraint firstAttribute="trailing" secondItem="J3T-ip-qhL" secondAttribute="trailing" id="Jyb-3I-VHL"/>
+                            <constraint firstItem="9eb-hN-5a9" firstAttribute="top" secondItem="lem-YM-yC1" secondAttribute="bottom" id="RTQ-Dm-QX6"/>
+                            <constraint firstItem="zW9-I3-9D7" firstAttribute="top" secondItem="n3D-mp-siA" secondAttribute="bottom" constant="8" id="SV1-6u-dzj"/>
+                            <constraint firstItem="J3T-ip-qhL" firstAttribute="top" secondItem="zW9-I3-9D7" secondAttribute="bottom" constant="8" id="SeA-FT-33g"/>
+                            <constraint firstItem="RCo-WI-aKs" firstAttribute="top" secondItem="J3T-ip-qhL" secondAttribute="bottom" id="X4f-HO-YEm"/>
+                            <constraint firstItem="9eb-hN-5a9" firstAttribute="leading" secondItem="qrW-K4-xHx" secondAttribute="leading" constant="8" id="aqk-Tn-u88"/>
+                            <constraint firstItem="lem-YM-yC1" firstAttribute="leading" secondItem="qrW-K4-xHx" secondAttribute="leading" id="cWm-vn-Zjp"/>
+                            <constraint firstItem="n3D-mp-siA" firstAttribute="leading" secondItem="qrW-K4-xHx" secondAttribute="leading" id="enK-ux-eaa"/>
+                            <constraint firstAttribute="trailing" secondItem="n3D-mp-siA" secondAttribute="trailing" id="hTC-a4-bGh"/>
+                            <constraint firstItem="J3T-ip-qhL" firstAttribute="leading" secondItem="qrW-K4-xHx" secondAttribute="leading" id="ipe-pY-C9g"/>
+                            <constraint firstAttribute="trailing" secondItem="9eb-hN-5a9" secondAttribute="trailing" constant="8" id="qcL-M9-CHq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="zW9-I3-9D7" id="7sH-j9-Oez"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vt1-O0-UuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6860" y="-599"/>
         </scene>
     </scenes>
     <resources>
@@ -2578,6 +2751,7 @@ sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam 
         <image name="Sterimed-Logo.jpg" width="1280" height="348"/>
         <image name="TestImage1.png" width="2218" height="1480"/>
         <image name="TestImage2.png" width="2236" height="1472"/>
+        <image name="logo_cbm_home.png" width="401" height="371"/>
         <image name="o nama.JPG" width="6000" height="4000"/>
     </resources>
 </document>
