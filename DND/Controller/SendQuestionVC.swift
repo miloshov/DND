@@ -84,7 +84,7 @@ class SendQuestionVC: UIViewController, MFMailComposeViewControllerDelegate {
         mailComposerVC.mailComposeDelegate = self // Extremely important to set the --mailComposeDelegate-- property, NOT the --delegate-- property
         
         mailComposerVC.setToRecipients(["info@dndcommerce.rs"])
-        mailComposerVC.setSubject("\(String(describing: fullNameTextField.text!)) want to ask you a question")
+        mailComposerVC.setSubject("\(String(describing: fullNameTextField.text!)) želi da vam postavi pitanje")
         mailComposerVC.setMessageBody(questionTextView.text, isHTML: false)
         
         return mailComposerVC
