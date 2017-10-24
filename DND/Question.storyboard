@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="I0A-Gn-drQ">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AppleSDGothicNeo.ttc">
+            <string>AppleSDGothicNeo-Regular</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Send QuestionVC-->
+        <scene sceneID="moR-dh-ZDz">
+            <objects>
+                <viewController id="I0A-Gn-drQ" customClass="SendQuestionVC" customModule="DND" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WbM-F2-bRV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yze-p4-kcW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pjb-il-Uq6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SendQuestionVCImage" translatesAutoresizingMaskIntoConstraints="NO" id="7V0-UG-dOS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Wen-2f-i5z">
+                                <rect key="frame" x="66" y="114" width="189" height="63"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Vase Ime i Prezime" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uoG-iM-bBC">
+                                        <rect key="frame" x="0.0" y="0.0" width="189" height="27.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Vasa email adresa" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cXA-QE-tOz">
+                                        <rect key="frame" x="0.0" y="35.5" width="189" height="27.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Wen-2f-i5z" secondAttribute="height" multiplier="3:1" id="5D2-Wh-LoB"/>
+                                </constraints>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="8Ec-dj-3FY">
+                                <rect key="frame" x="43" y="193" width="234" height="182"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="yes"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQa-Sz-fsk">
+                                <rect key="frame" x="16" y="23" width="63" height="31.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="CQa-Sz-fsk" secondAttribute="height" multiplier="2:1" id="6j9-ph-cd9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
+                                <state key="normal" title="&lt; Nazad">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backBtnPressed:" destination="I0A-Gn-drQ" eventType="touchUpInside" id="Gbj-Am-jwW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4Z-tY-7XE">
+                                <rect key="frame" x="128.5" y="476" width="63" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="O4Z-tY-7XE" secondAttribute="height" multiplier="1:1" id="Kba-rB-JiC"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="SendBtnPressed:" destination="I0A-Gn-drQ" eventType="touchUpInside" id="8bc-k4-wd5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8Ec-dj-3FY" firstAttribute="centerY" secondItem="pjb-il-Uq6" secondAttribute="centerY" id="Bfr-Ri-dvJ"/>
+                            <constraint firstItem="8Ec-dj-3FY" firstAttribute="leading" secondItem="pjb-il-Uq6" secondAttribute="leadingMargin" constant="27" id="D5h-MB-iPu"/>
+                            <constraint firstItem="Wen-2f-i5z" firstAttribute="centerX" secondItem="pjb-il-Uq6" secondAttribute="centerX" id="ExD-uE-a1f"/>
+                            <constraint firstItem="Yze-p4-kcW" firstAttribute="top" secondItem="7V0-UG-dOS" secondAttribute="bottom" id="Gr4-bw-JEE"/>
+                            <constraint firstItem="Yze-p4-kcW" firstAttribute="top" secondItem="O4Z-tY-7XE" secondAttribute="bottom" constant="29" id="O0g-fE-B8d"/>
+                            <constraint firstItem="Wen-2f-i5z" firstAttribute="centerY" secondItem="pjb-il-Uq6" secondAttribute="centerY" multiplier="0.51" id="OUL-JW-kSt"/>
+                            <constraint firstItem="O4Z-tY-7XE" firstAttribute="width" secondItem="pjb-il-Uq6" secondAttribute="height" multiplier="1:9" id="PBi-Ob-Acj"/>
+                            <constraint firstItem="7V0-UG-dOS" firstAttribute="leading" secondItem="pjb-il-Uq6" secondAttribute="leading" id="Scl-8p-bLB"/>
+                            <constraint firstItem="CQa-Sz-fsk" firstAttribute="leading" secondItem="pjb-il-Uq6" secondAttribute="leadingMargin" id="Z3l-ay-Bff"/>
+                            <constraint firstItem="O4Z-tY-7XE" firstAttribute="centerX" secondItem="pjb-il-Uq6" secondAttribute="centerX" id="b3Q-nJ-7WJ"/>
+                            <constraint firstItem="7V0-UG-dOS" firstAttribute="top" secondItem="pjb-il-Uq6" secondAttribute="top" id="bUF-mW-4bT"/>
+                            <constraint firstItem="8Ec-dj-3FY" firstAttribute="centerX" secondItem="pjb-il-Uq6" secondAttribute="centerX" id="l6S-JA-GRQ"/>
+                            <constraint firstItem="8Ec-dj-3FY" firstAttribute="top" secondItem="Wen-2f-i5z" secondAttribute="bottom" constant="16" id="n5s-NB-Iaz"/>
+                            <constraint firstItem="CQa-Sz-fsk" firstAttribute="width" secondItem="pjb-il-Uq6" secondAttribute="height" multiplier="1:9" id="ohZ-VT-KAD"/>
+                            <constraint firstItem="CQa-Sz-fsk" firstAttribute="top" secondItem="WbM-F2-bRV" secondAttribute="bottom" constant="3" id="uuY-LU-qeL"/>
+                            <constraint firstItem="Wen-2f-i5z" firstAttribute="width" secondItem="7V0-UG-dOS" secondAttribute="height" multiplier="1:3" id="x4E-GB-cpJ"/>
+                            <constraint firstAttribute="trailing" secondItem="7V0-UG-dOS" secondAttribute="trailing" id="x7g-lW-rDk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="cXA-QE-tOz" id="uVc-r1-DcX"/>
+                        <outlet property="fullNameTextField" destination="uoG-iM-bBC" id="5Fh-Yc-2n6"/>
+                        <outlet property="questionTextView" destination="8Ec-dj-3FY" id="dX4-hE-2te"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BHE-GV-uK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976.25" y="1184.1549295774648"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SendQuestionVCImage" width="1242" height="2208"/>
+    </resources>
+</document>

@@ -12,6 +12,8 @@ class HawoVC: UIViewController {
     
     // MARK: Properties
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var linkView: UITextView!
+
 
     @IBAction func backBtnPressed (_sender: UIButton) {
         
@@ -22,6 +24,8 @@ class HawoVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        linkView.isEditable = false
+        linkView.dataDetectorTypes = .link
         textView.isEditable = false
     }
 

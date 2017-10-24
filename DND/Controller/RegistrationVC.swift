@@ -19,40 +19,6 @@ class RegistrationVC: UIViewController, MFMailComposeViewControllerDelegate {
     @IBOutlet weak var licenceTextField: UITextField!
     @IBOutlet weak var phoneTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet var nameYTopConstraint : NSLayoutConstraint!
-    
-    override func viewWillAppear(_ animated: Bool) {
-        adjustViewLayout(size: UIScreen.main.bounds.size)
-    }
-    
-    func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
-        adjustViewLayout(size: size)
-    }
-    
-    func adjustViewLayout(size: CGSize) {
-        switch(size.width, size.height) {
-        case (320, 480):                        // iPhone 4S in portrait
-            nameYTopConstraint.constant = 0
-        case (480, 320):                        // iPhone 4S in landscape
-            nameYTopConstraint.constant = 0
-        case (320, 568):                        // iPhone 5/5S in portrait
-            nameYTopConstraint.constant = 0
-        case (568, 320):                        // iPhone 5/5S in landscape
-            nameYTopConstraint.constant = 0
-        case (375, 667):                        // iPhone 6 in portrait
-            nameYTopConstraint.constant = 0
-        case (667, 375):                        // iPhone 6 in landscape
-            nameYTopConstraint.constant = 0
-        case (414, 736):                        // iPhone 6 Plus in portrait
-            nameYTopConstraint.constant = 0
-        case (736, 414):                        // iphone 6 Plus in landscape
-            nameYTopConstraint.constant = 0
-        default:
-            break
-        }
-        view.setNeedsLayout()
-        
-    }
     
     @IBAction func sendBtnPressed(_ sender: UIButton) {
         
