@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XNN-dM-c5T">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XNN-dM-c5T">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -58,7 +58,7 @@
                                             <action selector="backBtnPressed:" destination="XNN-dM-c5T" eventType="touchUpInside" id="Knw-Vs-0ni"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O DND Commerce-u" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABC-Ko-ncG">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Kompaniji" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABC-Ko-ncG">
                                         <rect key="frame" x="80" y="22" width="160" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="4Gd-n1-q2p"/>
@@ -111,7 +111,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="XqJ-Cd-y1e">
                                 <rect key="frame" x="8" y="336" width="304" height="180"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Kompanija DND Commerce je zastupnik i distributer najvećih svetskih firmi iz oblasti sterilizacije. Prodajni program obuhvata čitav spektar proizvoda za sterilizaciju – pakovni materijali za sterilizaciju, lepilice za rolne i kese, kompletan portfolio aparata za sterilizaciju, kompletan materijal za kontrolu sterilizacije, kompletan medicinski nameštaj za sterilizaciju. Svi proizvodi ispunjavaju zahteve međunarodnih standarda i regulativa i koriste se u preko 80 zemalja širom sveta. Osim najkvalitetnijih proizvoda, ono što nas izdvaja od drugih jeste da možete dobiti i adekvatno znanje za primenu istih. Konstantno ulažemo u obrazovanje kroz edukacije, radionice i seminare sa ciljem da podignemo svest o sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam pružaju mogućnost upoznavanja proizvoda i njihovu primenu uz dobijanje adekvatnih kataloga i uzoraka. Skladištenje, prodaja i distribucija proizvoda sa jasno definisanim uslovima nabavke, kao i odgovorom na zahteve tržišta su karakteristika uspešnog poslovanja DND Commerce-a. Politika firme je stalna težnja ka unapređenju na svim poljima.</mutableString>
+                                <string key="text">Kompanija DND Commerce je zastupnik i distributer najvećih svetskih firmi iz oblasti sterilizacije. Prodajni program obuhvata čitav spektar proizvoda za sterilizaciju – pakovni materijali za sterilizaciju, lepilice za rolne i kese, kompletan portfolio aparata za sterilizaciju, kompletan materijal za kontrolu sterilizacije, kompletan medicinski nameštaj za sterilizaciju. Svi proizvodi ispunjavaju zahteve međunarodnih standarda i regulativa i koriste se u preko 80 zemalja širom sveta. Osim najkvalitetnijih proizvoda, ono što nas izdvaja od drugih jeste da možete dobiti i adekvatno znanje za primenu istih. Konstantno ulažemo u obrazovanje kroz edukacije, radionice i seminare sa ciljem da podignemo svest o sterilizaciji u svim zdravstvenim ustanovama. Takođe, i naše prezentacije Vam pružaju mogućnost upoznavanja proizvoda i njihovu primenu uz dobijanje adekvatnih kataloga i uzoraka. Skladištenje, prodaja i distribucija proizvoda sa jasno definisanim uslovima nabavke, kao i odgovorom na zahteve tržišta su karakteristika uspešnog poslovanja DND Commerce-a. Politika firme je stalna težnja ka unapređenju na svim poljima.</string>
                                 <color key="textColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

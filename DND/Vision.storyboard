@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qve-qR-tId">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qve-qR-tId">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -61,8 +61,8 @@
                                             <action selector="backBtnPressed:" destination="qve-qR-tId" eventType="touchUpInside" id="yrr-X1-Ee7"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vizija DND-a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk5-RU-JTt">
-                                        <rect key="frame" x="100" y="28" width="120" height="17.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vizija i Tendencije" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk5-RU-JTt">
+                                        <rect key="frame" x="90" y="26" width="140" height="17.5"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -71,8 +71,8 @@
                                 <color key="backgroundColor" red="0.078431372550000003" green="0.16078431369999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="gk5-RU-JTt" firstAttribute="centerX" secondItem="ONw-Hd-C0c" secondAttribute="centerX" id="1PD-PZ-hyG"/>
-                                    <constraint firstItem="gk5-RU-JTt" firstAttribute="top" secondItem="ONw-Hd-C0c" secondAttribute="top" constant="28" id="8gV-VW-gdd"/>
-                                    <constraint firstAttribute="trailing" secondItem="gk5-RU-JTt" secondAttribute="trailing" constant="100" id="AaZ-we-Oxx"/>
+                                    <constraint firstItem="gk5-RU-JTt" firstAttribute="top" secondItem="ONw-Hd-C0c" secondAttribute="top" constant="26" id="8gV-VW-gdd"/>
+                                    <constraint firstAttribute="trailing" secondItem="gk5-RU-JTt" secondAttribute="trailing" constant="90" id="AaZ-we-Oxx"/>
                                     <constraint firstItem="jLp-XY-6gY" firstAttribute="top" secondItem="ONw-Hd-C0c" secondAttribute="top" constant="22" id="Px3-Lw-S01"/>
                                     <constraint firstItem="jLp-XY-6gY" firstAttribute="leading" secondItem="ONw-Hd-C0c" secondAttribute="leading" constant="16" id="TCu-nA-bms"/>
                                     <constraint firstAttribute="height" constant="60" id="q3r-B1-AmE"/>
@@ -139,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAh-AA-QrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3291" y="-904"/>
+            <point key="canvasLocation" x="3290.625" y="-904.22535211267609"/>
         </scene>
     </scenes>
     <resources>
