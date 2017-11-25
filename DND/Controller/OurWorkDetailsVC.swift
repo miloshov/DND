@@ -77,13 +77,13 @@ class OurWorkDetailsVC: UIViewController {
     
     func downloadImage(_ stringURL: String  ) {
         
-        let url = URL(string: stringURL)!
+        let url = URL(string: stringURL)
         
         DispatchQueue.global().async { [unowned self] in
             
             do {
                 
-                let data = try Data(contentsOf: url)
+                let data = try Data(contentsOf: url!)
                 
                 DispatchQueue.main.async {
                     

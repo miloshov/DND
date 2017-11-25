@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -145,12 +145,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olC-81-Pa8">
-                                <rect key="frame" x="16" y="23" width="63" height="31.5"/>
+                                <rect key="frame" x="16" y="15" width="63" height="31.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="olC-81-Pa8" secondAttribute="height" multiplier="2:1" id="rZr-Kz-iC7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="15"/>
-                                <state key="normal" title="&lt; Nazad">
+                                <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -227,7 +227,7 @@
                             <constraint firstItem="m2w-VK-7q1" firstAttribute="centerX" secondItem="daJ-gA-DpL" secondAttribute="centerX" id="SY8-0N-HrQ"/>
                             <constraint firstItem="Idt-o2-uxZ" firstAttribute="leading" secondItem="daJ-gA-DpL" secondAttribute="leading" id="ZO3-o9-kKy"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="olC-81-Pa8" secondAttribute="trailingMargin" id="drh-qB-hsB"/>
-                            <constraint firstItem="olC-81-Pa8" firstAttribute="top" secondItem="WxQ-gW-lrg" secondAttribute="bottom" constant="3" id="gsg-N2-20b"/>
+                            <constraint firstItem="olC-81-Pa8" firstAttribute="top" secondItem="WxQ-gW-lrg" secondAttribute="bottom" constant="-5" id="gsg-N2-20b"/>
                             <constraint firstItem="Idt-o2-uxZ" firstAttribute="top" secondItem="daJ-gA-DpL" secondAttribute="top" id="lsy-oK-8fi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ooh-4T-UTm" secondAttribute="trailing" constant="45" id="nHu-Jm-hQt"/>
                             <constraint firstItem="olC-81-Pa8" firstAttribute="width" secondItem="daJ-gA-DpL" secondAttribute="height" multiplier="1:9" id="toL-gP-WNG"/>
@@ -274,7 +274,7 @@
                                                     <color key="backgroundColor" red="0.27450980390000002" green="0.45882352939999999" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJ5-es-xw8">
-                                                    <rect key="frame" x="164" y="30" width="152" height="51"/>
+                                                    <rect key="frame" x="164" y="30" width="145" height="49"/>
                                                     <string key="text">In this lesson, you save a meal list across FoodTracker app sessions. Understanding and implementing data persistence is a vital part of iOS app development. iOS has many persistent data storage solutions; in this lesson, you’ll use NSCoding as the data persistence mechanism in the FoodTracker app. NSCoding is a protocol that enables a lightweight solution for archiving objects and other structures. Archived objects can be stored on disk and retrieved at a later time.In this lesson, you save a meal list across FoodTracker app sessions. Understanding and implementing data persistence is a vital part of iOS app development. iOS has many persistent data storage solutions; in this lesson, you’ll use NSCoding as the data persistence mechanism in the FoodTracker app. NSCoding is a protocol that enables a lightweight solution for archiving objects and other structures. Archived objects can be stored on disk and retrieved at a later time.</string>
                                                     <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="9"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -519,7 +519,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Ji-fL-3Za">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Ji-fL-3Za">
                                                     <rect key="frame" x="0.0" y="0.0" width="160" height="89"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="160" id="6vP-Pl-zAU"/>

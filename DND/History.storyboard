@@ -62,7 +62,7 @@
                                     <constraint firstAttribute="height" constant="220" id="V6r-Zk-4TQ"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Istorijat DND-a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jh7-C5-gcQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Istorijat DND Commerce-a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jh7-C5-gcQ">
                                 <rect key="frame" x="0.0" y="288" width="320" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="PZK-q7-npf"/>

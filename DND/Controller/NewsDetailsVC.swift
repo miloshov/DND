@@ -59,7 +59,7 @@ class NewsDetailsVC: UIViewController {
                 
                 DispatchQueue.main.async {
                     
-                    self.imageLbl.image = UIImage(data: data)
+                    self.imageLbl?.image = UIImage(data: data)
                     self.imageLbl.isHidden = false
                     
                 }

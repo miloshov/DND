@@ -62,7 +62,6 @@
 		264E98D31F89120A007C0079 /* SteelcoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E98D21F89120A007C0079 /* SteelcoVC.swift */; };
 		264E98D51F89122F007C0079 /* SeltecVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E98D41F89122F007C0079 /* SeltecVC.swift */; };
 		264E98D71F891253007C0079 /* PrintexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E98D61F891253007C0079 /* PrintexVC.swift */; };
-		267ADACB1F9B699D00F6573B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B711F81096600350D5F /* Info.plist */; };
 		26A76B661F81096600350D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A76B651F81096600350D5F /* AppDelegate.swift */; };
 		26A76B6D1F81096600350D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B6C1F81096600350D5F /* Assets.xcassets */; };
 		26A76B701F81096600350D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B6E1F81096600350D5F /* LaunchScreen.storyboard */; };
@@ -370,7 +369,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Milos Hovjecki";
 				TargetAttributes = {
 					26A76B611F81096600350D5F = {
@@ -419,7 +418,6 @@
 				26A76B8A1F817D5D00350D5F /* Poppins-SemiBold.ttf in Resources */,
 				2616E52B1F8BD198005C0A14 /* Belintra-Logo.jpg in Resources */,
 				2616E5311F8BD1AD005C0A14 /* Printex-Logo.bmp in Resources */,
-				267ADACB1F9B699D00F6573B /* Info.plist in Resources */,
 				2616E52C1F8BD19C005C0A14 /* No-Image.jpg in Resources */,
 				261057F91F9F3BBC00CBF7B0 /* AboutUs.storyboard in Resources */,
 				26A76B781F811EAF00350D5F /* GoogleService-Info.plist in Resources */,
