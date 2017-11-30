@@ -29,7 +29,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TestImage4.png" translatesAutoresizingMaskIntoConstraints="NO" id="KIp-Nc-yXy">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DND_App_Image_3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KIp-Nc-yXy">
                                 <rect key="frame" x="0.0" y="60" width="320" height="220"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="220" id="pRl-TL-qAj"/>
@@ -143,6 +143,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="TestImage4.png" width="2236" height="1480"/>
+        <image name="DND_App_Image_3.jpg" width="1920" height="1080"/>
     </resources>
 </document>

@@ -56,7 +56,7 @@
                                     <constraint firstAttribute="bottom" secondItem="iwD-50-mKs" secondAttribute="bottom" constant="6" id="meY-cK-BFv"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TestImage1.png" translatesAutoresizingMaskIntoConstraints="NO" id="UOA-P8-QTn">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DND_App_Image_4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UOA-P8-QTn">
                                 <rect key="frame" x="0.0" y="60" width="320" height="220"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="220" id="V6r-Zk-4TQ"/>
@@ -149,6 +149,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="TestImage1.png" width="2218" height="1480"/>
+        <image name="DND_App_Image_4.jpg" width="1920" height="1080"/>
     </resources>
 </document>
