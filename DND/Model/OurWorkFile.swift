@@ -40,11 +40,11 @@ class OurWorkFile {
             
         }
         
-        let dateFormattor = DateFormatter()
-        dateFormattor.dateStyle = .long
-        dateFormattor.timeStyle = .none
-        let currentDate = dateFormattor.string(from: Date())
-        self._date = currentDate
+//        let dateFormattor = DateFormatter()
+//        dateFormattor.dateStyle = .full
+//        dateFormattor.timeStyle = .none
+//        let currentDate = dateFormattor.string(from: Date())
+//        self._date = currentDate
         
         return _date
         
