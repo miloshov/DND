@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260B70721FD2A7C8007156EA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B711F81096600350D5F /* Info.plist */; };
 		261057F71F9F352E00CBF7B0 /* OurWork.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261057F61F9F352E00CBF7B0 /* OurWork.storyboard */; };
 		261057F91F9F3BBC00CBF7B0 /* AboutUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261057F81F9F3BBC00CBF7B0 /* AboutUs.storyboard */; };
 		261057FB1F9F566300CBF7B0 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261057FA1F9F566300CBF7B0 /* History.storyboard */; };
@@ -65,7 +66,6 @@
 		26A76B661F81096600350D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A76B651F81096600350D5F /* AppDelegate.swift */; };
 		26A76B6D1F81096600350D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B6C1F81096600350D5F /* Assets.xcassets */; };
 		26A76B701F81096600350D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B6E1F81096600350D5F /* LaunchScreen.storyboard */; };
-		26A76B781F811EAF00350D5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B771F811EAE00350D5F /* GoogleService-Info.plist */; };
 		26A76B821F81733500350D5F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A76B811F81733500350D5F /* MainVC.swift */; };
 		26A76B881F817D5700350D5F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B851F817D5200350D5F /* Poppins-Medium.ttf */; };
 		26A76B891F817D5A00350D5F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A76B871F817D5200350D5F /* Poppins-Regular.ttf */; };
@@ -76,6 +76,7 @@
 		26CDCB311FD06E1900F614B6 /* DND_App_Image_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26CDCB2C1FD06E1800F614B6 /* DND_App_Image_1.jpg */; };
 		26CDCB321FD06E1900F614B6 /* DND_App_Image_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26CDCB2D1FD06E1900F614B6 /* DND_App_Image_2.jpg */; };
 		26D28B571F9F329700CABC4A /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D28B561F9F329700CABC4A /* News.storyboard */; };
+		26D531F320A391B40060DFA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26D531F220A391B40060DFA1 /* GoogleService-Info.plist */; };
 		26DD82AA1F98C18B004DF7A8 /* sterilisation.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DD82A91F98C17C004DF7A8 /* sterilisation.png */; };
 		26DD82AC1F98C19C004DF7A8 /* pocetna.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DD82AB1F98C196004DF7A8 /* pocetna.png */; };
 		DC4F85162AE0C4202BD0EF50 /* Pods_DND.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9989B1E6BCA5FC0974DA21F2 /* Pods_DND.framework */; };
@@ -142,7 +143,6 @@
 		26A76B6C1F81096600350D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26A76B6F1F81096600350D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26A76B711F81096600350D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26A76B771F811EAE00350D5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		26A76B791F81214B00350D5F /* DND.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DND.entitlements; sourceTree = "<group>"; };
 		26A76B811F81733500350D5F /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		26A76B851F817D5200350D5F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
@@ -154,6 +154,7 @@
 		26CDCB2C1FD06E1800F614B6 /* DND_App_Image_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DND_App_Image_1.jpg; sourceTree = "<group>"; };
 		26CDCB2D1FD06E1900F614B6 /* DND_App_Image_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DND_App_Image_2.jpg; sourceTree = "<group>"; };
 		26D28B561F9F329700CABC4A /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = News.storyboard; path = DND/News.storyboard; sourceTree = SOURCE_ROOT; };
+		26D531F220A391B40060DFA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		26DD82A91F98C17C004DF7A8 /* sterilisation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sterilisation.png; sourceTree = "<group>"; };
 		26DD82AB1F98C196004DF7A8 /* pocetna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pocetna.png; sourceTree = "<group>"; };
 		2E657093E0DE14119434FBAC /* Pods-DND.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DND.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DND/Pods-DND.debug.xcconfig"; sourceTree = "<group>"; };
@@ -223,7 +224,7 @@
 				26152D701F9F2BC000DCFE1A /* Question.storyboard */,
 				26A76B6C1F81096600350D5F /* Assets.xcassets */,
 				26A76B6E1F81096600350D5F /* LaunchScreen.storyboard */,
-				26A76B771F811EAE00350D5F /* GoogleService-Info.plist */,
+				26D531F220A391B40060DFA1 /* GoogleService-Info.plist */,
 				26A76B711F81096600350D5F /* Info.plist */,
 			);
 			path = DND;
@@ -438,6 +439,7 @@
 				2616E5361F8BD31A005C0A14 /* TestImage1.png in Resources */,
 				2616E52E1F8BD1A2005C0A14 /* Steelco-Logo.png in Resources */,
 				26152D6B1F9E1DCC00DCFE1A /* logo_cbm_home.png in Resources */,
+				26D531F320A391B40060DFA1 /* GoogleService-Info.plist in Resources */,
 				26A76B701F81096600350D5F /* LaunchScreen.storyboard in Resources */,
 				26CDCB321FD06E1900F614B6 /* DND_App_Image_2.jpg in Resources */,
 				26A76B8A1F817D5D00350D5F /* Poppins-SemiBold.ttf in Resources */,
@@ -445,13 +447,13 @@
 				2616E5311F8BD1AD005C0A14 /* Printex-Logo.bmp in Resources */,
 				2616E52C1F8BD19C005C0A14 /* No-Image.jpg in Resources */,
 				261057F91F9F3BBC00CBF7B0 /* AboutUs.storyboard in Resources */,
-				26A76B781F811EAF00350D5F /* GoogleService-Info.plist in Resources */,
 				26CDCB2E1FD06E1900F614B6 /* DND_App_Image_3.jpg in Resources */,
 				2616E53B1F8BD3EF005C0A14 /* o nama.JPG in Resources */,
 				26D28B571F9F329700CABC4A /* News.storyboard in Resources */,
 				2616E5301F8BD1AA005C0A14 /* Soltec-Logo.TIF in Resources */,
 				26CDCB2F1FD06E1900F614B6 /* DND_App_Image_4.jpg in Resources */,
 				26A76B6D1F81096600350D5F /* Assets.xcassets in Resources */,
+				260B70721FD2A7C8007156EA /* Info.plist in Resources */,
 				2616E5381F8BD322005C0A14 /* TestImage3.png in Resources */,
 				26DD82AC1F98C19C004DF7A8 /* pocetna.png in Resources */,
 				2616E5291F8BD192005C0A14 /* Hawo-Logo.png in Resources */,

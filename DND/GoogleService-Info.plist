@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>683922224875-4p9kuea35kluovud3n831qdni1m9ar5j.apps.googleusercontent.com</string>
+	<string>191947189081-u149k1pqnce3d62de4uh5vqmvh71h4kp.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.683922224875-4p9kuea35kluovud3n831qdni1m9ar5j</string>
+	<string>com.googleusercontent.apps.191947189081-u149k1pqnce3d62de4uh5vqmvh71h4kp</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDzaGMiKTeelacd8sosliVHj1z66J5hgZw</string>
+	<string>AIzaSyA9j_jThi8aDHWeEMsNRmXD9pW4cmKPYlI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>683922224875</string>
+	<string>191947189081</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.hajora.DND</string>
 	<key>PROJECT_ID</key>
-	<string>dnd-commerce</string>
+	<string>dnd-commerce-a179d</string>
 	<key>STORAGE_BUCKET</key>
-	<string>dnd-commerce.appspot.com</string>
+	<string>dnd-commerce-a179d.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:683922224875:ios:18e342c6802937c7</string>
+	<string>1:191947189081:ios:18e342c6802937c7</string>
 	<key>DATABASE_URL</key>
-	<string>https://dnd-commerce.firebaseio.com</string>
+	<string>https://dnd-commerce-a179d.firebaseio.com</string>
 </dict>
 </plist>
